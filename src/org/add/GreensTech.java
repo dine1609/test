@@ -12,21 +12,13 @@ public class GreensTech {
 	
 	public void greensOmr(int price , float ground) {
 		System.out.println("price : " +price+"\nGround : "+ground+"\tsq.ft");
+		
 	}
 	
-	
-	public static void main(String[] args) {
+	public void greensOmr(int price , int disount) {
+		System.out.println("price : " +price+"\nDiscount : "+disount+"\t%");
 		
-		
+	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	}	
 }
 

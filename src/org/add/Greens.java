@@ -19,13 +19,18 @@ public class Greens extends GreensTech  {
 	System.out.println("price : Rs " +price+"\nGround : "+ground+"\tsq.ft");
 	super.greensOmr(price, ground);
 	}
+	
+	@Override
+	public void greensOmr(int price, int disount) {
+		super.greensOmr(price, disount);
+	}
 	public static void main(String[] args) {
 		
 		GreensTech y = new GreensTech();
 		y.greensOmr();
 		y.greensOmr(65);
 		y.greensOmr(8500000, 60.54f);
-		
+		y.greensOmr(8500000, 10);
 		
 		
 	}
